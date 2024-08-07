@@ -4,6 +4,9 @@ import io
 import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters,CallbackContext
+from keep_alive import keep_alive
+
+keep_alive()
 
 TOKEN = '7065303069:AAEzqfj_H_pZOrvnqoOsWAjC0AYdk8NCH7Q'
 
